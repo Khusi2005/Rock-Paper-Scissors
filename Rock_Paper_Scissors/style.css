@@ -1,13 +1,19 @@
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
     text-align: center;
-    background-color:rgb(200, 200, 196);;
+    background-color:rgb(200, 200, 196);
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMJMqL6Uew1JbO8BjSE_-aRljOe82HT2MrQQ&s');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: auto;
 }
 
 h1{
-    background-color: #684212;
-    color: #fff;
+    color:firebrick;
     height: 5rem;
     line-height: 5rem;
 }
@@ -23,7 +29,7 @@ h1{
 
 .choice:hover{
     cursor: pointer;
-    background-color: #081b31;
+    background-color:burlywood;
 }
 
 img{
@@ -63,7 +69,7 @@ img{
 }
 
 #msg{
-    background-color: #19147ab4;
+    background-color:darkcyan;
     font-size: 2rem;
     display: inline;
     padding: 1rem;
